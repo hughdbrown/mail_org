@@ -1,0 +1,125 @@
+[
+    {
+        "optype": "move",
+        "from_addr": "noreply@glassdoor.com",
+        "dst_folder": "glassdoor.com",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "move",
+        "from_addr": "alert@email3-beyond.com",
+        "dst_folder": "beyond.com",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "move",
+        "from_addr": "alert@email4-beyond.com",
+        "dst_folder": "beyond.com",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "move",
+        "from_addr": "JobMatch@email4-beyond.com",
+        "dst_folder": "beyond.com",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "move",
+        "from_addr": "CareerEvent@email4-beyond.com",
+        "dst_folder": "beyond.com - admin",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "move",
+        "from_addr": "Newsletter@email4-beyond.com",
+        "dst_folder": "beyond.com - admin",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "move",
+        "from_addr": "SchwabAlerts.AccountActivity@schwab.com",
+        "dst_folder": "Schwab",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "move",
+        "from_addr": "donotreply-comm@schwab.com",
+        "dst_folder": "Schwab - admin",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "move",
+        "from_addr": "jobplanner@startwire.com",
+        "dst_folder": "startwire.com",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "move",
+        "from_addr": "alert@startwire.com",
+        "dst_folder": "startwire.com",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "move",
+        "from_addr": "notifications@owler.com",
+        "dst_folder": "owler.com",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "delete",
+        "from_addr": "no-reply@slack.com",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "delete",
+        "from_addr": "contact@packtpub.com",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "delete",
+        "from_addr": "updates@comms.packtpub.com",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "move",
+        "from_addr": "jobs-listings@linkedin.com",
+        "dst_folder": "linkedin.com - jobs",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "move",
+        "from_addr": "listserv@aaii.com",
+        "dst_folder": "AAII",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "delete",
+        "from_addr": "info@post.coloradojobdepartment.com",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "delete",
+        "from_addr": "oreilly@post.oreilly.com",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "delete",
+        "from_addr": "info@mail.LegalJobInsIder.com",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "delete",
+        "from_addr": "info@meetup.com",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "delete",
+        "from_addr": "insights@ivyexec.com",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "delete",
+        "from_addr": "info@mail.HealthcareJobInsider.com",
+        "src_folder": "Inbox"
+    }
+]
