@@ -24,4 +24,4 @@ Move all messages from your Inbox from `from_addr` and move them to `dst_folder`
         "dst_folder": "linkedin.com - jobs",
         "src_folder": "Inbox"
     }
-    ```
+```
