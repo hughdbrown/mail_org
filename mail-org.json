@@ -1,0 +1,7 @@
+[
+  {
+    "src_folder": "@job_search",
+    "optype": "download",
+    "dst_dir_name": "~/email/job-search"
+  }
+]
