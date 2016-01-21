@@ -121,5 +121,16 @@
         "optype": "delete",
         "from_addr": "info@mail.HealthcareJobInsider.com",
         "src_folder": "Inbox"
+    },
+    {
+        "optype": "delete",
+        "from_addr": "Fidelity.Alerts@Fidelity.com",
+        "src_folder": "Inbox"
+    },
+    {
+        "optype": "delete",
+        "from_addr": "info@zmail.jobsradar.com",
+        "src_folder": "Inbox"
     }
+
 ]
