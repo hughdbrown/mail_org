@@ -146,14 +146,18 @@ class MapEngine:
         logger.info("from %s", from_addrs)
         logger.info("to %s", to_addrs)
         for i, from_addr in enumerate(from_addrs):
-            print(f"Move {i} of {len(from_addrs)}: {src_folder} to {str(dst_folder)}")
+            logger.info(f"Move {i} of {len(from_addrs)}: {src_folder} to {str(dst_folder)}")
             for to_addr in to_addrs:
                 email_ids = self._matching_emails(self.imap, from_addr, src_folder, to_addr)
+                logger.info(f"{len(email_ids)} to move")
+
                 for email_id in email_ids:
+                    _, data = self.imap.fetch(str(email_id), "BODY[HEADER.FIELDS (SUBJECT)]")
+                    subject = data[0][1]
+
                     _, data = self.imap.fetch(str(email_id), "(UID)")
                     msg_uid = self._parse_uid(data[0])
-                    print(msg_uid)
-                    self._mail_move(self.imap, msg_uid, dst_folder)
+                    self._mail_move(self.imap, msg_uid, dst_folder, subject=subject)
 
     @staticmethod
     def _matching_emails(imap, from_addr, src_folder, to_addr=None):
@@ -214,13 +218,11 @@ class MapEngine:
         imap.expunge()
 
     @staticmethod
-    def _mail_move(imap, msg_uid, dst_folder):
-        print(f"\tCopying/deleting {msg_uid}")
+    def _mail_move(imap, msg_uid, dst_folder, **kwargs):
         logger.info(
-            'imap.uid("MOVE", %s, %s)',
-            msg_uid,
-            f'"{str(dst_folder)}"',
+            f'imap.uid("MOVE", {msg_uid}, "{str(dst_folder)})'
         )
+        logger.info(f'subject = {kwargs["subject"]}')
         imap.uid('MOVE', msg_uid, f'"{str(dst_folder)}"')
 
     @staticmethod
