@@ -75,3 +75,16 @@ Move all messages from your Inbox from `from_addr` and move them to `dst_folder`
 python setup.py install --user --prefix=
 ```
 Using `prefix` is a bit of a kludge to get around a bug on OSX.
+
+Alternatively, set up a virtualenv and run from this directory:
+```
+# Make the virtualenv
+pyenv virtualenv 3.12.0 email-org-3.12.0
+
+# Make the virtualenv activate when directory is entered
+pyenv local email-org-3.12.0
+
+# Install pip and requirements
+pip install --upgrade pip
+pip install -r requirements.txt
+```
