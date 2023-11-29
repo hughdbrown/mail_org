@@ -11,7 +11,7 @@ import re
 
 from .mail_config import config
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s %(message)s')
+logging.basicConfig(level=logging.INFO, format="%(asctime)s %(message)s")
 logger = logging.getLogger(__name__)
 
 # pylint: disable=logging-fstring-interpolation
@@ -26,7 +26,8 @@ class MapEngine:
     """
     Class for mass operations on imap accounts
     """
-    PATTERN_UID = re.compile(r'''\d+ \(UID (?P<uid>\d+)\)''')
+
+    PATTERN_UID = re.compile(r"""\d+ \(UID (?P<uid>\d+)\)""")
 
     def __init__(self):
         """
@@ -34,8 +35,7 @@ class MapEngine:
         """
         settings = config()
         host, username, password = (
-            settings[key]
-            for key in ('EMAIL_HOST', 'EMAIL_USERNAME', 'EMAIL_PASSWORD')
+            settings[key] for key in ("EMAIL_HOST", "EMAIL_USERNAME", "EMAIL_PASSWORD")
         )
 
         logger.info(f"imap = imaplib.IMAP4_SSL('{host}')")
@@ -148,13 +148,19 @@ class MapEngine:
         logger.info("from %s", from_addrs)
         logger.info("to %s", to_addrs)
         for i, from_addr in enumerate(from_addrs):
-            logger.info(f"Move {i} of {len(from_addrs)}: {src_folder} to {str(dst_folder)}")
+            logger.info(
+                f"Move {i} of {len(from_addrs)}: {src_folder} to {str(dst_folder)}"
+            )
             for to_addr in to_addrs:
-                email_ids = self._matching_emails(self.imap, from_addr, src_folder, to_addr)
+                email_ids = self._matching_emails(
+                    self.imap, from_addr, src_folder, to_addr
+                )
                 logger.info(f"{len(email_ids)} to move")
 
                 for email_id in email_ids:
-                    _, data = self.imap.fetch(str(email_id), "BODY[HEADER.FIELDS (SUBJECT)]")
+                    _, data = self.imap.fetch(
+                        str(email_id), "BODY[HEADER.FIELDS (SUBJECT)]"
+                    )
                     subject = data[0][1]
 
                     _, data = self.imap.fetch(str(email_id), "(UID)")
@@ -163,7 +169,7 @@ class MapEngine:
 
     @staticmethod
     def _matching_emails(imap, from_addr, src_folder, to_addr=None):
-        src_folder = src_folder or 'INBOX'
+        src_folder = src_folder or "INBOX"
         if to_addr:
             # verb = '(AND (TO "{0}")(FROM "{1}"))'.format(to_addr, from_addr)
             # verb = '(TO "{0}" FROM "{1}")'.format(to_addr, from_addr)
@@ -201,13 +207,13 @@ class MapEngine:
             return sorted((int(x) for x in data[0].split()), reverse=True)
             # return sorted((int(x) for x in data[0].split()))
         except ValueError as val:
-            print('-' * 30)
+            print("-" * 30)
             print(f"_data_ids({data})")
             # return []
             print(val)
             raise
         except Exception as exc:
-            print('-' * 30)
+            print("-" * 30)
             print(f"_data_ids({data})")
             print(exc)
             raise
@@ -215,25 +221,23 @@ class MapEngine:
     @staticmethod
     def _mail_delete(imap, msg_uid):
         logger.info(f"imap.uid('STORE', '{msg_uid}', '+FLAGS', '(\\Deleted)')")
-        imap.uid('STORE', msg_uid, '+FLAGS', r'(\Deleted)')
-        logger.info('imap.expunge()')
+        imap.uid("STORE", msg_uid, "+FLAGS", r"(\Deleted)")
+        logger.info("imap.expunge()")
         imap.expunge()
 
     @staticmethod
     def _mail_move(imap, msg_uid, dst_folder, **kwargs):
-        logger.info(
-            f'imap.uid("MOVE", {msg_uid}, "{str(dst_folder)})'
-        )
+        logger.info(f'imap.uid("MOVE", {msg_uid}, "{str(dst_folder)})')
         logger.info(f'subject = {kwargs["subject"]}')
-        imap.uid('MOVE', msg_uid, f'"{str(dst_folder)}"')
+        imap.uid("MOVE", msg_uid, f'"{str(dst_folder)}"')
 
     @staticmethod
     def _parse_uid(data):
         try:
             if isinstance(data, bytes):
-                data = data.decode('utf8')
+                data = data.decode("utf8")
             match = MapEngine.PATTERN_UID.match(data)
-            return match.group('uid')
+            return match.group("uid")
         except Exception as exc:
             print(f"Error in _parse_uid({data}): {exc}")
             raise

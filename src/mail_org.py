@@ -5,6 +5,7 @@ import click
 
 from .map_engine import MapEngine
 
+
 @click.command()
 @click.option(
     "--config-file",
@@ -19,5 +20,5 @@ def main(config_file):
         me.apply(Path(config_file))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()  # pylint: disable=no-value-for-parameter
