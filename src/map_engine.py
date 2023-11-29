@@ -14,6 +14,8 @@ from .mail_config import config
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(message)s')
 logger = logging.getLogger(__name__)
 
+# pylint: disable=logging-fstring-interpolation
+
 
 def sha1_data(data):
     """Calculate sha1 hash of data."""
@@ -112,7 +114,7 @@ class MapEngine:
             fullpath: Path = dst_directory.joinpath(email_filename)
             if not fullpath.exists():
                 message = message.decode("utf-8")
-                fullpath.write_text(message)
+                fullpath.write_text(message, encoding="utf-8")
             else:
                 print("\tFound email that has already been downloaded. We're done.")
                 break

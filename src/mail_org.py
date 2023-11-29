@@ -1,3 +1,4 @@
+"""Driver module for mail-org."""
 from pathlib import Path
 
 import click
@@ -19,4 +20,4 @@ def main(config_file):
 
 
 if __name__ == '__main__':
-    main()
+    main()  # pylint: disable=no-value-for-parameter
