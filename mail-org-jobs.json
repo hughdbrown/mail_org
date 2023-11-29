@@ -1,7 +1,43 @@
 [
   {
+    "optype": "move",
+    "from_addrs": [
+        "ai@kimblegroup.com",
+        "alert@indeed.com",
+        "alerts@johnsonjobs.com",
+        "jobalerts-noreply@linkedin.com",
+        "jobs-listings@linkedin.com",
+        "jobs-noreply@linkedin.com",
+        "jobs@alerts.jobot.com",
+        "jobs@davidcareers.com",
+        "kd@kochdavisjobs.com",
+        "kimble@kimblegroup.com",
+        "mike@mccarthysearch.com",
+        "noreply@glassdoor.com",
+        "opportunities@careeralerts.thetradedesk.com"
+    ],
+    "dst_folder": "@job_search",
+    "src_folder": "Inbox"
+  },
+  {
     "src_folder": "@job_search",
     "optype": "download",
     "dst_dir_name": "~/email/job-search"
+  },
+
+  {
+    "optype": "move",
+    "from_addrs": [
+        "pragmaticengineer+the-scoop@substack.com",
+        "pragmaticengineer@substack.com",
+        "pragmaticengineer+the-pulse@substack.com"
+    ],
+    "dst_folder": "pragmatic-engineer",
+    "src_folder": "Inbox"
+  },
+  {
+    "src_folder": "pragmatic-engineer",
+    "optype": "download",
+    "dst_dir_name": "~/email/pragmatic-engineer"
   }
 ]
