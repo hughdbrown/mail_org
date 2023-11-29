@@ -1,0 +1,1355 @@
+[
+  {
+    "src_folder": "@job-search",
+    "optype": "download",
+    "dst_dir_name": "~/email/job-search"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "nerdwallet@em.nerdwallet.com",
+      "nerdwallet@email.nerdwallet.com"
+    ],
+    "dst_folder": "nerdwallet.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "quant@thestreet.com",
+      "quant@info.thestreet.com"
+    ],
+    "dst_folder": "thestreet.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+        "hello@talkpython.fm"
+    ],
+    "dst_folder": "talkpython.fm",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+        "info@realpython.com"
+    ],
+    "dst_folder": "realpython.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "newsletters@wirecutter.newyorktimes.com"
+    ],
+    "dst_folder": "wirecutter.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "admin@wilmott.com"
+    ],
+    "dst_folder": "Wilmott",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "agoertzel@pgapc.com"
+    ],
+    "dst_folder": "Andy Goertzel",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "admin@pycoders.com"
+    ],
+    "dst_folder": "pycoders weekly",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "donotreply-comm@schwab.com",
+      "SchwabAlerts.AccountActivity@schwab.com"
+    ],
+    "dst_folder": "Schwab - admin",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "alang3@cherrycreekschools.org",
+      "amonaco@cherrycreekschools.org",
+      "astpierre@cherrycreekschools.org",
+      "bhall@cherrycreekschools.org",
+      "citti@cherrycreekschools.org",
+      "daycareworks@cherrycreekschools.org",
+      "emccall3@cherrycreekschools.org",
+      "kjohnson177@cherrycreekschools.org",
+      "kshaiman@cherrycreekschools.org",
+      "kspears@cherrycreekschools.org",
+      "kstacy@cherrycreekschools.org",
+      "lgelwick@cherrycreekschools.org",
+      "lsewill@cherrycreekschools.org",
+      "mpedregon@cherrycreekschools.org",
+      "noreply@cherrycreekschools.org",
+      "rarnett@cherrycreekschools.org",
+      "rbuell@cherrycreekschools.org",
+      "sconley@cherrycreekschools.org",
+      "tsteinmetz@cherrycreekschools.org",
+      "elizabeth.burkey@gmail.com"
+    ],
+    "dst_folder": "teachers",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "listserv@aaii.com"
+    ],
+    "dst_folder": "AAII",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "4e54or442me0@inbound.workablemail.com",
+      "alert@indeed.com",
+      "alerts@ziprecruiter.com",
+      "apply@jobot.com",
+      "careers@gusto.com",
+      "cvien@marqeta.com",
+      "dpratt@ascentsg.com",
+      "gabrielang@fb.com",
+      "hire@hire.clevertech.biz",
+      "imacias@nerdwallet.com",
+      "indeedapply@indeed.com",
+      "jobs-listings@linkedin.com",
+      "jobs-noreply@linkedin.com",
+      "jobseekers@email.ihire.com",
+      "kimgibbons@fb.com",
+      "lensa24@lensa.com",
+      "lsmith@peaksware.com",
+      "mallory.hynes@pinnacol.com",
+      "no-reply@greenhouse.io",
+      "no-reply@hire.lever.co",
+      "no-reply@marqeta.com",
+      "no-reply@slack-corp.com",
+      "no-reply@thetradedesk.com",
+      "noreply@candidates.workablemail.com",
+      "noreply@glassdoor.com",
+      "notifications@app.bamboohr.com",
+      "notifications@smartrecruiters.com",
+      "patrick.murphy@jobot.com",
+      "pcress@nerdwallet.com",
+      "phil@ziprecruiter.com",
+      "rick@rechargeapps.com",
+      "support@happymonday.com",
+      "system@hirebridgemail.com",
+      "talent@marketing.angel.co",
+      "tboiles@rechargeapps.com"
+    ],
+    "dst_folder": "job-search-2020",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "editor@cool-tools.org"
+    ],
+    "dst_folder": "CoolTools",
+    "src_folder": "Inbox"
+  },
+  {
+    "src_folder": "CoolTools",
+    "optype": "download",
+    "dst_dir_name": "~/email/cool-tools"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "lorimontagna@hotmail.com"
+    ],
+    "dst_folder": "Lori Montagna",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "hughdbrown@yahoo.com"
+    ],
+    "to_addrs": [
+      "lorimontagna@hotmail.com"
+    ],
+    "dst_folder": "Lori Montagna",
+    "src_folder": "Sent"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "orders@quixotewinery.com"
+    ],
+    "dst_folder": "quixotewinery.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "aaron@powerfulpython.com"
+    ],
+    "dst_folder": "AAron Maxwell",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "support@account.dollarshaveclub.com"
+    ],
+    "dst_folder": "dollarshaveclub.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "shipment-tracking@amazon.com"
+    ],
+    "dst_folder": "Amazon",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "lmmontagna@gmail.com",
+      "lmontagna@cerner.com"
+    ],
+    "dst_folder": "Lisa Montagna",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "DianeMontagna@msn.com",
+      "a.montagna@sbcglobal.net",
+      "aamontagna@aol.com",
+      "camontagna@gmail.com",
+      "cindy_montagna@lycos.com",
+      "dale.montagna@gmail.com",
+      "dianemontagna@sbcglobal.net",
+      "fran.montagna@gmail.com",
+      "grantony1@netzero.net",
+      "grenaem@yahoo.com",
+      "jmont57@hotmail.com",
+      "jmont57@hotmail.com",
+      "john.montagna@durakon.com",
+      "johnmontagna.jm.1@gmail.com",
+      "johnmontagna.jm@hotmail.com",
+      "lmontagn79@hotmail.com",
+      "mkmountain@rcn.com"
+    ],
+    "dst_folder": "Montagnas",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "yourprovider@simplepractice.com",
+      "no-reply@simplepractice.com",
+      "alecbakerpsyd@gmail.com"
+    ],
+    "dst_folder": "Alec Baker",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "to_addrs": [
+      "alecbakerpsyd@gmail.com"
+    ],
+    "from_addrs": [
+      "hughdbrown@yahoo.com"
+    ],
+    "dst_folder": "Alec Baker",
+    "src_folder": "Sent"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "hughdbrown@yahoo.com"
+    ],
+    "to_addrs": [
+      "linda@lward.biz"
+    ],
+    "dst_folder": "Linda Ward",
+    "src_folder": "Sent"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "linda@lward.biz"
+    ],
+    "dst_folder": "Linda Ward",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "hwalker4@cogeco.ca"
+    ],
+    "dst_folder": "Hilary Walker",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "hughdbrown@yahoo.com"
+    ],
+    "to_addrs": [
+      "hwalker4@cogeco.ca"
+    ],
+    "dst_folder": "Hilary Walker",
+    "src_folder": "Sent"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "bdalton2@gmail.com"
+    ],
+    "dst_folder": "Blake Dalton",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "hughdbrown@yahoo.com"
+    ],
+    "to_addrs": [
+      "bdalton2@gmail.com"
+    ],
+    "dst_folder": "Blake Dalton",
+    "src_folder": "Sent"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "andreamslifka@gmail.com",
+      "do-not-reply@thumbtack.com",
+      "drlonkopit@aol.com",
+      "svkirklaw@yahoo.com",
+      "thumbtack@go.thumbtack.com",
+      "weiss@harperhofer.com"
+    ],
+    "dst_folder": "d",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "hughdbrown@yahoo.com"
+    ],
+    "to_addrs": [
+      "svkirklaw@yahoo.com",
+      "andreamslifka@gmail.com",
+      "weiss@harperhofer.com",
+      "drlonkopit@aol.com"
+    ],
+    "dst_folder": "d",
+    "src_folder": "Sent"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "help@email.jacquielawson.com"
+    ],
+    "dst_folder": "jacquielawson.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "aberner@cherrycreekschools.org",
+      "amonaco@cherrycreekschools.org",
+      "kjohnson177@cherrycreekschools.org",
+      "kshaiman@cherrycreekschools.org",
+      "kspears@cherrycreekschools.org",
+      "lgelwick@cherrycreekschools.org",
+      "news@cherrycreekschools.org",
+      "noreply@cherrycreekschools.org",
+      "rbuell@cherrycreekschools.org",
+      "schoolcareworks@cherrycreekschools.org",
+      "sconley@cherrycreekschools.org"
+    ],
+    "dst_folder": "cherrycreekschools.org",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "xfinity@emails.xfinity.com",
+      "online.communications@alerts.comcast.net"
+    ],
+    "dst_folder": "xfinity.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "marketing@getpostman.com",
+      "thepostmanteam@getpostman.com"
+    ],
+    "dst_folder": "postman.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "addison.howard@kaggle.intercom-mail.com",
+      "anna@kaggle.com",
+      "ben@kaggle.com",
+      "colinmorris@kaggle.com",
+      "dan@kaggle.com",
+      "jamie@kaggle.com",
+      "mark@kaggle.com",
+      "meghan@kaggle.com",
+      "rachael@kaggle.com",
+      "sam@kaggle.com",
+      "team@kaggle.intercom-mail.com",
+      "walter.reade@kaggle.intercom-mail.com",
+      "wendy@kaggle.com",
+      "will@kaggle.com"
+    ],
+    "dst_folder": "kaggle.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "members@dmns.org"
+    ],
+    "dst_folder": "dmns.org",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "membership@state.co.us",
+      "reservations@state.co.us",
+      "chelsea.eversmann@state.co.us"
+    ],
+    "dst_folder": "History Colorado",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "thebatch@deeplearning.ai"
+    ],
+    "dst_folder": "deeplearning.ai",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "noreply@plex.tv"
+    ],
+    "dst_folder": "plex.tv",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "kale@hackernewsletter.com"
+    ],
+    "dst_folder": "hackernewsletter.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "ml@theblprint.com"
+    ],
+    "dst_folder": "theblprint.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "notifications@mail10.creditkarma.com",
+      "notifications@reminder1.creditkarma.com"
+    ],
+    "dst_folder": "creditkarma.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "jm@thinkingdirections.com"
+    ],
+    "dst_folder": "Jean Moroney",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "phillip@covenantcounselors.com"
+    ],
+    "dst_folder": "Phillip Hendrix",
+    "src_folder": "Inbox"
+  },
+  {
+    "from_addrs": [
+      "hughdbrown@yahoo.com"
+    ],
+    "optype": "move",
+    "to_addrs": [
+      "phillip@covenantcounselors.com"
+    ],
+    "dst_folder": "Phillip Hendrix",
+    "src_folder": "Sent"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "info@lazyprogrammer.me",
+      "no-reply@e.udemymail.com"
+    ],
+    "dst_folder": "lazyprogrammer",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "mkt@manning.com",
+      "support@manning.com"
+    ],
+    "dst_folder": "manning.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "alex@morningbrew.com",
+      "crew@morningbrew.com"
+    ],
+    "dst_folder": "morningbrew.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "sydney@redislabs.com"
+    ],
+    "dst_folder": "redislabs.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "team@datacamp.com"
+    ],
+    "dst_folder": "datacamp.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "bernieb@antsle.com",
+      "daniel@antsle.com"
+    ],
+    "dst_folder": "antsle.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "udemy@email.udemy.com"
+    ],
+    "dst_folder": "udemy.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "joel@impossiblehq.com"
+    ],
+    "dst_folder": "impossiblehq.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "DoNotReply@FlyFrontier.com"
+    ],
+    "dst_folder": "frontierairline.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "notifications@savings3.creditkarma.com"
+    ],
+    "dst_folder": "creditkarma.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "topstocks+265686@ino.com",
+      "report+265686@ino.com"
+    ],
+    "dst_folder": "MarketClub.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "gareth@morethanseven.net"
+    ],
+    "dst_folder": "DevOpsWeekly",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "hello@aymenelamri.com"
+    ],
+    "dst_folder": "DevOpsLinks",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "info@stackskills.com"
+    ],
+    "dst_folder": "stackskills.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "my-saved-home@mail.zillow.com",
+      "no-reply@mail.zillow.com",
+      "open-houses@mail.zillow.com",
+      "recommended-homes@mail.zillow.com",
+      "search-updates@mail.zillow.com",
+      "zmail@mail.zillow.com"
+    ],
+    "dst_folder": "zillow",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "epsguidance@earningswhispers.com",
+      "plays@earningswhispers.com",
+      "support@earningswhispers.com",
+      "whisperreport@earningswhispers.com",
+      "wl@earningswhispers.com",
+      "wr@earningswhispers.com"
+    ],
+    "dst_folder": "earningswhispers.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "anniebrunette@hotmail.com",
+      "artois_chile@yahoo.co.uk",
+      "chelsea.anderson@rapidsyouthsoccer.org",
+      "clubnews@bluesombrero.com",
+      "info@rapidsyouthsoccer.org",
+      "invites@mailer.surveygizmo.com",
+      "jessicavolk@yahoo.com",
+      "lioraspiess@yahoo.com",
+      "mdmill2@hotmail.com",
+      "support@stacksports.com",
+      "yagr1@hotmail.com>"
+    ],
+    "dst_folder": "rapidsyouthsoccer.org",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "notifications@github.com"
+    ],
+    "dst_folder": "github-notifications",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "noreply@github.com"
+    ],
+    "dst_folder": "github",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "matt@kspatial.com"
+    ],
+    "dst_folder": "Matt Krusemark",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "team@datascienceweekly.org"
+    ],
+    "dst_folder": "datascienceweekly",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "answers@amazon.com",
+      "aws-marketing-email-replies@amazon.com",
+      "customer-reviews-messages@amazon.com",
+      "digital-no-reply@amazon.com",
+      "gifting-no-reply@amazon.com",
+      "marketplace-messages@amazon.com",
+      "ship-confirm@amazon.com",
+      "store-news@amazon.ca",
+      "store-news@amazon.com",
+      "vfe-campaign-response@amazon.com"
+    ],
+    "dst_folder": "Amazon",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "newsletters@analystratings.net"
+    ],
+    "dst_folder": "marketbeat.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "noreply-zr-startwire@ziprecruiter.com"
+    ],
+    "dst_folder": "ziprecruiter.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "noreply@quibbmail.com"
+    ],
+    "dst_folder": "quibb.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "mailer@artsonia.com"
+    ],
+    "dst_folder": "artsonia.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "onlinetraining@oreilly.com",
+      "reply@oreilly.com",
+      "conftech@oreilly.com"
+    ],
+    "dst_folder": "oreilly.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "tigerDirectB2B@p.tigerdirect.com"
+    ],
+    "dst_folder": "tigerdirect.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "eNews@email.microcentermedia.com"
+    ],
+    "dst_folder": "microcentermedia.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "VVNews@vectorvest-mail.com"
+    ],
+    "dst_folder": "vectorvest.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "rakuten@newsletter.rakuten.com"
+    ],
+    "dst_folder": "rakuten.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "team@fightforthefuture.org"
+    ],
+    "dst_folder": "fightforthefuture.org",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "no-reply@m.mail.coursera.org",
+      "no-reply@t.mail.coursera.org",
+      "noreply@coursera.org",
+      "coursera@email.coursera.org"
+    ],
+    "dst_folder": "coursera.org",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "news@edx.org"
+    ],
+    "dst_folder": "edx.org",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "no-reply@piazza.com"
+    ],
+    "dst_folder": "piazza.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "emily@learn.wp.nginx.com"
+    ],
+    "dst_folder": "nginx.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "alerts@jvdaily.com"
+    ],
+    "dst_folder": "jvdaily.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "news@thehustle.co"
+    ],
+    "dst_folder": "thehustle.co",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "editorialstaff@flipboard.com",
+      "no-reply@flipboard.com"
+    ],
+    "dst_folder": "flipboard.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "support@udacity.com"
+    ],
+    "dst_folder": "udacity.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "projects@upstreamgs.com"
+    ],
+    "dst_folder": "upstreamgs.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "noreply_alerts@velvetjobs.com"
+    ],
+    "dst_folder": "velvetjobs.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "JobAlerts@CareerBliss.com"
+    ],
+    "dst_folder": "CareerBliss.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "mail@hireable.com"
+    ],
+    "dst_folder": "hireable.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "jason@MachineLearningMastery.com",
+      "noreply@digitalproductdelivery.com"
+    ],
+    "dst_folder": "mlmastery",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "adrian@pyimagesearch.com"
+    ],
+    "dst_folder": "pyimagesearch",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "admin@lexulous.com"
+    ],
+    "dst_folder": "lexulous",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "listserv@aaii.com"
+    ],
+    "dst_folder": "AAII",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "citicards@info4.citi.com",
+      "eSummary@aadvantage.email.aa.com",
+      "americanairlines@email.aa.com"
+    ],
+    "dst_folder": "American Airlines",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "alert@email4-beyond.com",
+      "alert@email3-beyond.com",
+      "JobMatch@email4-beyond.com"
+    ],
+    "dst_folder": "beyond.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "CareerEvent@email4-beyond.com",
+      "Newsletter@email4-beyond.com"
+    ],
+    "dst_folder": "beyond.com - admin",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "docker@info.docker.com"
+    ],
+    "dst_folder": "docker",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "events@sisense.com",
+      "info@sisense.com",
+      "alana.semel@sisense.com"
+    ],
+    "dst_folder": "sisense",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "account@seekingalpha.com"
+    ],
+    "dst_folder": "seekingalpha.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "newsletters@analystratings.net"
+    ],
+    "dst_folder": "marketbeat.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "noreply@kirkreport.net"
+    ],
+    "dst_folder": "Kirk Report",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "community@faun.dev"
+    ],
+    "dst_folder": "faun.dev",
+    "src_folder": "inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "mail@dbader.org"
+    ],
+    "dst_folder": "dbader.org",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "allstate@marketing01.email-allstate.com"
+    ],
+    "dst_folder": "allstate.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "messages-noreply@linkedin.com",
+      "invitations@linkedin.com",
+      "linkedin@e.linkedin.com"
+    ],
+    "dst_folder": "LinkedIn",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "philiplima@mashey.io",
+      "briangrote@mashey.io"
+    ],
+    "dst_folder": "mashey",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "team@Mint.com"
+    ],
+    "dst_folder": "Mint.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "notifications@owler.com"
+    ],
+    "dst_folder": "owler.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "rick@email.ricksteves.com"
+    ],
+    "dst_folder": "RickSteves.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "hackers@hackerrankmail.com"
+    ],
+    "dst_folder": "hackerrank.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "jobplanner@startwire.com",
+      "alert@startwire.com",
+      "ellen@startwire.com"
+    ],
+    "dst_folder": "startwire.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "team@switchapp.com"
+    ],
+    "dst_folder": "switchapp.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "GARY@garynewman.net",
+      "gary_newman@ymail.com"
+    ],
+    "dst_folder": "dumbass",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "GARY@garynewman.net",
+      "gary_newman@ymail.com"
+    ],
+    "dst_folder": "dumbass",
+    "src_folder": "Recruiters"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "support@builtincolorado.com"
+    ],
+    "dst_folder": "builtincolorado.com",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "delete",
+    "from_addrs": [
+      "josh@sharpsightlabs.com",
+      "homedepotcustomercare@mg.homedepot.com",
+      "members@content.dollarshaveclub.com",
+      "from@em.autonation-email.com",
+      "turbotax@e.turbotax.intuit.com",
+      "info@mailer.netflix.com",
+      "rewards@e.officedepot.com",
+      "notification+me5aggsr@facebookmail.com",
+      "noreply@medium.com",
+      "notification@facebookmail.com",
+      "feedback@email.tripit.com",
+      "tigerdirectb2b@p.tigerdirect.com",
+      "tigerdirectb2b@b.tigerdirect.com",
+      "kd@kochdavisjobs.com",
+      "info@e.equifax.com",
+      "email@email.vudu.com",
+      "justfly@email.justflyemail.com",
+      "traderspro@e.traderspro.com",
+      "info@trendadvisor.net",
+      "info@stockinvestornews.com",
+      "marketing@strongmail.schaeffer.com",
+      "hello@hello.generalassemb.ly",
+      "emails@e.etsy.com",
+      "notify@twitter.com",
+      "info@twitter.com",
+      "dailydigest@atom.finance",
+      "no-reply@portablenorthpole.com",
+      "announcements@atom.finance",
+      "mail@goresumes.com",
+      "marketing@optionsanimal.com",
+      "noreply@quibbmail.com",
+      "DeltaAirLines@e.delta.com",
+      "Fidelity.Alerts@Fidelity.com",
+      "Mail@BridgeRun.com",
+      "MemberUpdate@e.tripadvisor.com",
+      "Monster@email.news.monster.com",
+      "News@InsideApple.Apple.com",
+      "PartnerResources@email4-beyond.com",
+      "Promo@email.newegg.com",
+      "UnitedAirlines@news.united.com",
+      "auto-confirm@amazon.com",
+      "barnesandnoble@m.bn.com",
+      "barnesandnoble@mail.barnesandnoble.com",
+      "microcenter@microcenterinsider.com",
+      "support@luxerone.com",
+      "club+265686@ino.com",
+      "contact@packtpub.com",
+      "dell@home.dell.com",
+      "dell@em.home.dell.com",
+      "marketing@daskeyboard.com",
+      "do-not-reply@stackexchange.com",
+      "email@members.angieslist.com",
+      "angieslist@ce.angieslist.com",
+      "farealert@airfarewatchdog.com",
+      "farealert@lists.airfarewatchdog.com",
+      "flightstatus@t.spiritairlines.com",
+      "fool@foolsubs.com",
+      "groups-noreply@linkedin.com",
+      "info@codefights.com",
+      "info@email.glassdoor.com",
+      "info@glassdoor.com",
+      "info@mail.glassdoor.com",
+      "info@mail.HealthcareJobInsider.com",
+      "info@mail.LegalJobInsIder.com",
+      "info@meetup.com",
+      "info@post.coloradojobdepartment.com",
+      "info@post.warehouselogisticsjobinsider.com",
+      "info@tipranks.com",
+      "info@tradespoon.com",
+      "info@twitter.com",
+      "info@zmail.jobsradar.com",
+      "insights@ivyexec.com",
+      "jeremy@investingshortcuts.com",
+      "info@investingshortcuts.com",
+      "landsend@email.landsend.com",
+      "lisa@analystratings.net",
+      "matthew@analystratings.net",
+      "members@dollarshaveclub.com",
+      "newsletter@brickhousesecurity.com",
+      "no-reply@dollarshaveclub.com",
+      "no-reply@flipboard.com",
+      "no-reply@slack.com",
+      "no-reply@yelp.com",
+      "noreply@camelcamelcamel.com",
+      "noreply@sprint.com",
+      "oreilly@post.oreilly.com",
+      "partners5@analystratings.net",
+      "quantbuzz@bm5150.com",
+      "reply@email.patagonia.com",
+      "reply@patagoniaprovisions-email.com",
+      "StevinsonToyotaScionEast@dsplusdealer.com",
+      "MemberUpdate@mp1.tripadvisor.com",
+      "store-news@amazon.com",
+      "info@signupgenius.com",
+      "homedepotcustomercare@email.homedepot.com",
+      "homedepotdecor@email.homedepot.com",
+      "homedepotpro@email.homedepot.com",
+      "burntend4@b.mail-zr.com",
+      "james@nawemail.com",
+      "axs@email.axs.com",
+      "evite@email.eviteideas.com",
+      "wsjwine@email.wsjwine.com",
+      "duluthtrading@duluthtradingemail.com",
+      "customerservice@phish.com",
+      "homedepotcustomercare@email.homedepot.com",
+      "bobsstores@em.bobstores.com",
+      "info@mail.hotels.com",
+      "easternmountainsports@em.ems.com",
+      "promo@promo.newegg.com",
+      "reply@rs.email.nextdoor.com",
+      "no-reply@rs.email.nextdoor.com",
+      "marriottbonvoy@email-marriott.com",
+      "contact@mailer.humblebundle.com",
+      "rakuten@r.emails.rakuten.com",
+      "email@list.lonelyplanet.com",
+      "pajamagram@email.pajamagram.com",
+      "email@e.redbubble.com",
+      "donotreplyorbitz@mailer.orbitz.com",
+      "emails@e.etsy.com",
+      "microcenter@microcenterinsider.com",
+      "protensitys@cityholo.com",
+      "receipts@messaging.squareup.com",
+      "update+me5aggsr@facebookmail.com",
+      "updates@comms.packtpub.com",
+      "weeklydealstogo@email.aa.com",
+      "DicksTeamHQ@bluesombrero.com",
+      "danielle@eventbrite.info",
+      "customer_service@moneyshow.com",
+      "responsibletwelve@omitted.host",
+      "bwwoffers@mailing.broadwayworld.com",
+      "globaltraderpro@em.investingchannel.com",
+      "bbcamerica@updates.bbcamerica.com",
+      "starbucks@e.starbucks.com",
+      "newsletter@reply.agoda-emails.com",
+      "promotions@altitudetickets.com",
+      "newsletter@email.ticketmaster.com",
+      "myfrontier@emails.flyfrontier.com",
+      "deals@emails.flyfrontier.com",
+      "news@kayak.com",
+      "dice@e-mail.dice.com",
+      "laquinta@emails.wyndhamhotels.com",
+      "movies@movies.fandango.com",
+      "info@303magazine.com",
+      "info@battleintheapple.com",
+      "rei_gearmail@notices.rei.com",
+      "rewards@e.noodles.com",
+      "noodles@email.noodles.com",
+      "tomtom@email.tomtom.com",
+      "members@email.dollarshaveclub.com",
+      "kimble@kimblegroup.com",
+      "rewards@c.pxsmail.com",
+      "quote_seeker@autocoveragedeals.com",
+      "circulation@5280.com",
+      "promotions@5280.com",
+      "5280_home@orders.buysub.com",
+      "newsletters@5280.com",
+      "offers@5280.amlsc.com",
+      "5280magazine@email.buysub.com",
+      "customerservice@hammacher.com",
+      "alzimmermannsprogrammingcontests@yahoogroups.com",
+      "azspcs@gmail.com",
+      "alzimmerma@aol.com",
+      "no-reply-alexa@amazon.com",
+      "noreply-appstore@amazon.com",
+      "analytics@alteryx.com",
+      "members@mp1.tripadvisor.com",
+      "vipresecuritynews@message.vipre.com",
+      "info@systemtrading.ca",
+      "email@idrop.news",
+      "info@stockstotrade.com",
+      "support@snappower.com",
+      "TomTom-GB@email.tomtommailer.com"
+    ],
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "download",
+    "dst_dir_name": "~/email/glassdoor.com",
+    "src_folder": "glassdoor.com"
+  },
+  {
+    "optype": "download",
+    "dst_dir_name": "~/email/earnings",
+    "src_folder": "marketbeat.com"
+  },
+  {
+    "optype": "download",
+    "dst_dir_name": "~/email/earningswhispers.com",
+    "src_folder": "earningswhispers.com"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "jobs-listings@linkedin.com"
+    ],
+    "dst_folder": "linkedin.com - jobs",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "aarp@email.aarp.org",
+      "aarpmessages@offers.aarp.org",
+      "aarpwebact@action.aarp.org",
+      "aarpwebact@action.aarp.org",
+      "coaarp@email.aarp.org",
+      "member@email.aarp.org",
+      "member@email.mystayingsharp.org"
+    ],
+    "dst_folder": "AARP",
+    "src_folder": "Inbox"
+  },
+  {
+    "optype": "move",
+    "from_addrs": [
+      "donorservices@aynrand.org",
+      "events@aynrand.org",
+      "impact@aynrand.org",
+      "ocon@aynrand.org",
+      "webinars@aynrand.org",
+      "webmaster@aynrand.org"
+    ],
+    "dst_folder": "Ayn Rand Institute",
+    "src_folder": "Inbox"
+  }
+]
